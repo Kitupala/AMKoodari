@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+    <title>Valuuttalaskin</title>
+    <link rel="stylesheet" type="text/css" href="tyylit.css"/> <!-- tyylitiedosto --> 
+</head>
+<body>
+    <h1>Valuuttalaskin</h1>
+    <hr>
+    <p>Syötä rahamäärä ja valitse haluamasi valuutta.</p>
+    <div class="kehys">
+        Summa: <input class="syote" id="valuutta"/> 
+        <br/>
+        <br/>
+        <button type="button" class="myButton" onclick="dollari();">EUR > USD</button>
+        <button type="button" class="myButton" onclick="euro();">USD > EUR</button>
+    </div>
+    <br/>
+	<div id="tulostusAlue" class="kehys">	
+	</div>
+    <script src="skriptit.js">		
+    </script> <!-- skripti -->
+</body>
+</html>
